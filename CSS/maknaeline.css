@@ -1,0 +1,130 @@
+body{
+	background-color: #DA70D6;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 15%;
+}
+
+header div {
+	height: 200px;
+}
+
+
+#p {
+   font-family: "Times New Roman", Times, serif;
+   font-style: normal;
+   font-size: 25px;
+}
+
+#list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: purple;
+ }
+
+#box img{
+	margin-left: 5%;
+	display: inline-block;
+	padding: grid-auto-flow;
+	width: 20%;
+	border-radius:10%;
+	height: 500px;
+	
+}
+ 
+#box ul{ 
+	display: inline-block;
+	vertical-align:top;
+	width: 65%;
+	font-size: 2rem;
+}
+ 
+
+li a {
+	display: block;
+	color: white;
+	text-align: left;
+	padding: 14px;
+	text-decoration: none;
+	float: left;
+}
+ 
+header h1 {
+	color: black;
+	font-size: 50px;
+	font-family:serif;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.images img {
+	border-radius: 50%;
+	width: 30%;
+}
+
+footer {
+	text-align: center;
+	background-color: purple;
+	padding: 5px;
+	color: white;
+}
+
+
+/* #fourPicsRow*/ .floating-box img {
+  max-width: 100%;
+}
+
+/*	Wide	Screens	*/
+@media	only	screen	and	(max-width	:	1200px)	{
+html,	body	{
+	font-family:	"Open	Sans",	sans-serif;
+	background-color:	#DDD;
+	height:	100%;
+	font-size:	20px;
+}
+}
+/*	Desktops	*/
+@media	only	screen	and	(max-width	:	992px)	{
+html,	body	{
+	font-family:	"Open	Sans",	sans-serif;
+	background-color:	#DDD;
+	height:	100%;
+	font-size:	16px;
+}
+}
+/*	Tablets	*/
+@media	only	screen	and	(max-width	:	768px)	{
+html,	body	{
+	font-family:	"Open	Sans",	sans-serif;
+	background-color:	#DDD;
+	height:	100%;
+	font-size:	12px;
+}
+}
+/*	Phones	*/	
+@media	only	screen	and	(max-width	:	480px)	{
+html,	body	{
+	font-family:	"Open	Sans",	sans-serif;
+	background-color:	#DDD;
+	height:	100%;
+	font-size:	10px;
+}
+}
+/*	Custom	*/	
+@media	only	screen	and	(max-width	:	320px)	{
+html,	body	{
+	font-family:	"Open	Sans",	sans-serif;
+	background-color:	#DDD;
+	height:	100%;
+	font-size:	8px;
+}
